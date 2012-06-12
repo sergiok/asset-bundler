@@ -5,6 +5,9 @@
   Install the module
   
     $ npm install asset-bundle
+    
+  you can specify the assets config in a assets.yml file. Take a look at the example app for a sample file.
+  If you are not comfortable with YAML, you can pass a JSON object to the configure method
 	
 ## TODO
   * Finish (start) the wiki
