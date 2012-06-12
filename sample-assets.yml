@@ -1,0 +1,29 @@
+---
+config:
+  deployDir: '/static/prod'
+  sourceDir: '/static/dev'
+  staticJS: '/js'
+  staticCSS: '/css'
+
+packages:
+  home:
+    js:
+      baseDir: /test
+      sources:
+        - test.js:nocompression
+        - file1.js
+        - '*'
+
+    css:
+      sources:
+        - '*:nocompression'
+
+  app:
+    js:
+      baseDir: /app
+      sources:
+        - app2.js
+        - AppComm.js
+    css:
+      sources:
+        - reset.css

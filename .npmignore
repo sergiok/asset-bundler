@@ -1,0 +1,4 @@
+.git*
+examples/
+.DS_Store
+sample-assets.yml
