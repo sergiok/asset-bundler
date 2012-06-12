@@ -3,6 +3,7 @@
 
 ## Quick Start
   Install the module
+  
     $ npm install asset-bundle
 	
 ## TODO
