@@ -1,0 +1,27 @@
+!!! html
+html(lang="en")
+	head
+		title assets builder - example app
+		meta(charset="utf-8")
+		meta(name="author", content="Sergio Kuba")
+		meta(name="description", content="assets builder module test app")
+		
+		- each style in styles
+			link(href="#{style}", rel="stylesheet", type="text/css")
+
+		script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js", type="text/javascript")
+	
+	body!= body
+		.asset-list
+			span scripts in bundle:
+			ul
+				- each script in scripts
+					li= script
+
+			span styles in bundle:
+			ul
+				- each style in styles
+					li= style
+		
+		- each script in scripts
+			script(src="#{script}", type="text/javascript")
