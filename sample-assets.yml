@@ -6,24 +6,32 @@ config:
   staticCSS: '/css'
 
 packages:
+# home package
   home:
     js:
-      baseDir: /test
+      baseDir: /home
       sources:
-        - test.js:nocompression
+        - ../core/core.js:nocompression
         - file1.js
         - '*'
 
     css:
+      baseDir: /home
       sources:
+        - ../reset.css
+        - ../test.css
         - '*:nocompression'
 
-  app:
+# other page package
+  otherPage:
     js:
-      baseDir: /app
+      baseDir: /other-page
       sources:
-        - app2.js
-        - AppComm.js
+        - '*'
+
     css:
+      baseDir: /other-page
       sources:
-        - reset.css
+        - ../reset.css
+        - ../test.css
+        - '*'

@@ -1,12 +1,12 @@
 {
   "author": "Sergio Kuba <sk@skdev.me> (skdev.me)",
-  "name": "assets-bundler",
+  "name": "asset-bundler",
   "description": "pack and create asset bundles for your static js and css files",
-  "version": "0.6.1",
-  "homepage": "https://github.com/sergiok/assets-bundler",
+  "version": "0.6.2",
+  "homepage": "https://github.com/sergiok/asset-bundler",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sergiok/assets-bundler.git"
+    "url": "git://github.com/sergiok/asset-bundler.git"
   },
   "keywords": ["build", "assets", "css", "javascript", "minify", "builder", "compress", "package"],
   "main": "./index.js",
