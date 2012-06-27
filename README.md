@@ -8,9 +8,12 @@
     
   you can specify the assets config in a assets.yml file. Take a look at the example app for a sample file.
   If you are not comfortable with YAML, you can pass a JSON object to the configure method
-	
+
+## 	Documentation
+Please check the [wiki](https://github.com/sergiok/asset-bundler/wiki), I will be updating it with more information soon.
+
 ## TODO
-  * Finish (start) the wiki
+  * Finish the wiki
   * Documentation
   * more examples
   * see TODO file
