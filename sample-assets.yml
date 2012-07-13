@@ -6,6 +6,12 @@ config:
   staticCSS: '/css'
 
 packages:
+# noprocess package, these files will be placed in the deploy dir without bundling
+  noprocess:
+    js:
+      baseDir: /libs
+      sources:
+        - jquery.min.js
 # home package
   home:
     js:
