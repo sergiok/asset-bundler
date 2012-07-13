@@ -11,7 +11,7 @@ packages:
     js:
       baseDir: /libs
       sources:
-        - jquery.min.js
+        - jquery.min.js 
 # home package
   home:
     js:

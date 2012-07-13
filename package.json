@@ -2,7 +2,7 @@
   "author": "Sergio Kuba <sk@skdev.me> (skdev.me)",
   "name": "asset-bundler",
   "description": "pack and create asset bundles for your static js and css files",
-  "version": "0.6.5",
+  "version": "0.6.5", 
   "homepage": "https://github.com/sergiok/asset-bundler",
   "repository": {
     "type": "git",
